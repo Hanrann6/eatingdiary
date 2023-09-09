@@ -1,0 +1,27 @@
+#main{
+    font-size: 12vw;
+    font-weight: bold;
+    color: rgb(255, 148, 221);
+    height: 45vh;
+    text-align: center;
+    margin-top: 14vh;
+}
+#record{
+    font-size: 30%;
+    text-align: center;
+}
+#button{
+    height: 15vh;
+    width: 50vw;
+    font-size:4vw;
+    font-weight: bold;
+    color: rgb(249, 101, 202);
+    background-color: rgb(255, 221, 234);
+
+    border-radius: 25%;
+    border-color: rgb(255, 198, 255);
+    border-width: 6px;
+}
+body{
+    background-color: rgb(255, 234, 237);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <link href="record.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<div id="title">
+    <div>
+        <button id="back" onclick="window.location.href='file:///C:/Users/yookr/OneDrive%20-%20%EC%9D%B4%ED%99%94%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EB%82%98/HTML+CSS%20%EC%97%B0%EC%8A%B5/2023.9%EC%9B%94%20%EC%97%B0%EC%8A%B5/index.html'">&lt</button>
+    </div>
+    <div>
+        식단 일기
+    </div>
+</div>
+
+<div id="today">
+    <div id="date">
+        <p id="currentDate"></p>
+        <script src="record.js"></script>
+    </div>
+    <div>
+        오늘 기분 : <input type="text" id="feel"/>
+    </div>
+    <div id="sleep">
+        <div>
+            취침 : <input type="time" class="sleeptime"/>
+        </div>
+        <div>
+            기상 : <input type="time" class="sleeptime"/>
+        </div>
+    </div>
+    <div>
+        물 : 
+    </div>
+    <div id="check">
+        <div>
+            화장실 : <input type="checkbox" class="checkbox"/>
+        </div>
+        <div>
+            생리 : <input type="checkbox" class="checkbox"/>
+        </div>
+        <div>
+            폭식 : <input type="checkbox" class="checkbox"/>
+        </div>
+    </div>
+</div>
+
+<div id="eat">
+    <table> <!-- 테이블 시작 -->
+        <thead>
+            <tr>
+                <th>시간</th>
+                <th>식단</th>
+                <th>포만감</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="time" class="eattime"/></td>
+                <td><input type="text" class="eat"/></td>
+                <td><input type="text" class="fat"/></td>
+            </tr>
+            <tr>
+                <td><input type="time" class="eattime"/></td>
+                <td><input type="text" class="eat"/></td>
+                <td><input type="text" class="fat"/></td>
+            </tr>
+            <tr>
+                <td><input type="time" class="eattime"/></td>
+                <td><input type="text" class="eat"/></td>
+                <td><input type="text" class="fat"/></td>
+            </tr>
+            <tr>
+                <td><input type="time" class="eattime"/></td>
+                <td><input type="text" class="eat"/></td>
+                <td><input type="text" class="fat"/></td>
+            </tr>
+            <tr>
+                <td><input type="time" class="eattime"/></td>
+                <td><input type="text" class="eat"/></td>
+                <td><input type="text" class="fat"/></td>
+            </tr>
+        </tbody>
+    </table> <!-- 테이블 종료 -->
+</div>
+
+
+
+</body>
