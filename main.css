@@ -9,6 +9,8 @@
 #record{
     font-size: 30%;
     text-align: center;
+
+    margin-top: 20vh;
 }
 #button{
     height: 15vh;
@@ -24,4 +26,6 @@
 }
 body{
     background-color: rgb(255, 234, 237);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }

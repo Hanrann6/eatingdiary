@@ -24,10 +24,20 @@
     </div>
     <div id="sleep">
         <div>
-            취침 : <input type="time" class="sleeptime"/>
+            취침 : <input type="time" id="sleeptime"/>
+            <script>
+                // 시간 입력 필드의 기본값 설정 (12:00)
+                var defaultTime = '12:00';
+                document.getElementById('sleeptime').value = defaultTime;
+            </script>
         </div>
         <div>
-            기상 : <input type="time" class="sleeptime"/>
+            기상 : <input type="time" id="waketime"/>
+            <script>
+                // 시간 입력 필드의 기본값 설정 (7:00)
+                var defaultTime = '07:00';
+                document.getElementById('waketime').value = defaultTime;
+            </script>
         </div>
     </div>
     <div>
@@ -41,7 +51,7 @@
             생리 : <input type="checkbox" class="checkbox"/>
         </div>
         <div>
-            폭식 : <input type="checkbox" class="checkbox"/>
+            과식 : <input type="checkbox" class="checkbox"/>
         </div>
     </div>
 </div>
@@ -82,6 +92,15 @@
                 <td><input type="text" class="fat"/></td>
             </tr>
         </tbody>
+        <script>
+            // 클래스가 'eattime'인 모든 input 요소에 기본값 설정 (12:00)
+            var defaultTime = '12:00';
+            var eattimeInputs = document.querySelectorAll('.eattime');
+            
+            eattimeInputs.forEach(function(input) {
+                input.value = defaultTime;
+            });
+        </script>
     </table> <!-- 테이블 종료 -->
 </div>
 
